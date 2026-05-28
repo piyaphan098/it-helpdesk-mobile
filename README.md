@@ -166,7 +166,7 @@ open → in_progress → resolved → closed
 
 ## 📄 License
 
-MIT License — ดูรายละเอียดใน [LICENSE](LICENSE)
+MIT License — Copyright (c) 2026 piyaphan098
 
 ---
 
