@@ -1,5 +1,5 @@
 name: it_support_helpdesk
-description: IT Support Helpdesk - Production-ready IT repair request mobile application.
+description: IT Helpdesk - Production-ready IT repair request mobile application.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -60,3 +60,4 @@ flutter:
 
   assets:
     - assets/images/
+

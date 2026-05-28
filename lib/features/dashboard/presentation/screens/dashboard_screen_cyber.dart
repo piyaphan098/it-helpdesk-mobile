@@ -1,4 +1,4 @@
-﻿import 'dart:ui';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -183,7 +183,7 @@ class DashboardScreen extends ConsumerWidget {
                               title: 'Resolved',
                               value: '$resolved',
                               delta:
-                                  'â†‘ ${resolved > 0 ? (resolved * 12 ~/ 100 + 12) : 0}%',
+                                  '↑ ${resolved > 0 ? (resolved * 12 ~/ 100 + 12) : 0}%',
                               icon: Icons.check_circle_outline,
                               isResolved: true,
                               delay: 300,
@@ -450,7 +450,7 @@ class DashboardScreen extends ConsumerWidget {
   }
 }
 
-// â”€â”€â”€ Sliver App Bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── Sliver App Bar ────────────────────────────────────────────────────────────
 class _CyberSliverAppBar extends StatelessWidget {
   const _CyberSliverAppBar(
       {required this.initials, required this.onNotificationTap});
@@ -504,7 +504,7 @@ class _CyberSliverAppBar extends StatelessWidget {
                   ),
                   const SizedBox(width: 12),
                   const Text(
-                    'TechPulse',
+                    'IT Helpdesk',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.w700,
@@ -568,7 +568,7 @@ class _CyberSliverAppBar extends StatelessWidget {
   }
 }
 
-// â”€â”€â”€ Stat Card â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── Stat Card ─────────────────────────────────────────────────────────────────
 class _StatCard extends StatelessWidget {
   const _StatCard({
     required this.title,
@@ -672,7 +672,7 @@ class _StatCard extends StatelessWidget {
   }
 }
 
-// â”€â”€â”€ Ticket Row â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── Ticket Row ────────────────────────────────────────────────────────────────
 class _TicketRow extends StatelessWidget {
   const _TicketRow({required this.ticket, required this.onTap});
   final Ticket ticket;
@@ -832,7 +832,7 @@ class _TicketRow extends StatelessWidget {
   }
 }
 
-// â”€â”€â”€ Skeleton Card â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+// ─── Skeleton Card ─────────────────────────────────────────────────────────────
 class _SkeletonCard extends StatelessWidget {
   const _SkeletonCard({this.height = 120});
   final double height;
@@ -851,3 +851,5 @@ class _SkeletonCard extends StatelessWidget {
         .shimmer(color: AppColors.glassBorder, duration: 1200.ms);
   }
 }
+
+

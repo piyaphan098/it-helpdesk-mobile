@@ -160,7 +160,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                               const SizedBox(height: 8),
                               _CyberTextField(
                                 controller: _emailController,
-                                hintText: 'name@techpulse.io',
+                                hintText: 'name@IT Helpdesk.io',
                                 keyboardType: TextInputType.emailAddress,
                                 suffixIcon: Icons.alternate_email_rounded,
                                 validator: (v) =>
@@ -320,7 +320,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                 Padding(
                   padding: const EdgeInsets.only(bottom: 16),
                   child: Text(
-                    '© 2024 TECHPULSE INFRASTRUCTURE LABS. ALL RIGHTS RESERVED.',
+                    '© 2024 IT Helpdesk INFRASTRUCTURE LABS. ALL RIGHTS RESERVED.',
                     style: TextStyle(
                       fontSize: 9,
                       fontWeight: FontWeight.w600,
@@ -361,7 +361,7 @@ class _TopBar extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                'TechPulse',
+                'IT Helpdesk',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
@@ -714,3 +714,4 @@ class _GlowBlob extends StatelessWidget {
     );
   }
 }
+

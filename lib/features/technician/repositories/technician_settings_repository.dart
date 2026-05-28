@@ -75,3 +75,5 @@ final technicianSettingsProvider =
     FutureProvider.family<TechnicianSettings?, String>((ref, techId) {
   return ref.watch(technicianSettingsRepositoryProvider).getSettings(techId);
 });
+
+

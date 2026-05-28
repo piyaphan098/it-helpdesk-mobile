@@ -152,7 +152,7 @@ class _TechnicianDashboardScreenState extends State<TechnicianDashboardScreen>
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'TechPulse',
+                'IT Helpdesk',
                 style: TextStyle(
                   fontFamily: 'Inter',
                   fontSize: 20,
@@ -697,4 +697,6 @@ class _MapGridPainter extends CustomPainter {
   @override
   bool shouldRepaint(_) => false;
 }
+
+
 

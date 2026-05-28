@@ -2,7 +2,7 @@
 class AppConstants {
   AppConstants._();
 
-  static const String appName = 'IT Support Helpdesk';
+  static const String appName = 'IT Helpdesk';
   static const String appVersion = '1.0.0';
 
   // Pagination
@@ -20,3 +20,5 @@ class AppConstants {
   static const String themeModeKey = 'theme_mode';
   static const String localeKey = 'locale';
 }
+
+

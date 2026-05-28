@@ -21,3 +21,5 @@ class SupabaseConstants {
   static const String techniciansTable = 'technicians';
   static const String notificationsTable = 'notifications';
 }
+
+

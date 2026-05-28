@@ -48,3 +48,5 @@ class TechnicianSettings {
         maskedPhone: maskedPhone ?? this.maskedPhone,
       );
 }
+
+

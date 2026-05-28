@@ -146,11 +146,11 @@ class CyberAppBar extends StatelessWidget implements PreferredSizeWidget {
                       ),
                     ),
                   ),
-                // TechPulse brand
+                // IT Helpdesk brand
                 Row(
                   children: [
                     const Text(
-                      'TechPulse',
+                      'IT Helpdesk',
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w700,
@@ -586,3 +586,5 @@ class CyberBackground extends StatelessWidget {
     );
   }
 }
+
+

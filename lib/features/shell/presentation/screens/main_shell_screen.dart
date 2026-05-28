@@ -152,7 +152,7 @@ class MainShellScreen extends ConsumerWidget {
                   const Icon(Icons.support_agent, size: 48),
                   const SizedBox(height: 8),
                   Text(
-                    'IT Support Helpdesk',
+                    'IT Helpdesk',
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
                   profileAsync.maybeWhen(
@@ -211,3 +211,5 @@ class MainShellScreen extends ConsumerWidget {
     );
   }
 }
+
+

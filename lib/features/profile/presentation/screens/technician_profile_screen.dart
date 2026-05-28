@@ -68,7 +68,7 @@ class _TechnicianProfileScreenState extends State<TechnicianProfileScreen>
                 title: Row(
                   children: [
                     const Text(
-                      'TechPulse',
+                      'IT Helpdesk',
                       style: TextStyle(
                         fontFamily: 'Inter',
                         fontSize: 22,
@@ -501,7 +501,7 @@ class _TechnicianProfileScreenState extends State<TechnicianProfileScreen>
   Widget _buildVersionFooter() {
     return Center(
       child: Text(
-        'TECHPULSE V2.4.8 (ENTERPRISE)',
+        'IT Helpdesk V2.4.8 (ENTERPRISE)',
         style: TextStyle(
           fontFamily: 'Inter',
           fontSize: 10,
@@ -513,4 +513,6 @@ class _TechnicianProfileScreenState extends State<TechnicianProfileScreen>
     );
   }
 }
+
+
 

@@ -153,3 +153,5 @@ class _ForgotPasswordScreenState extends ConsumerState<ForgotPasswordScreen> {
     ).animate().fadeIn();
   }
 }
+
+

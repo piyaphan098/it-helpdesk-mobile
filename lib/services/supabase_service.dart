@@ -50,3 +50,5 @@ final supabaseServiceProvider = Provider<SupabaseService>((ref) {
 final supabaseClientProvider = Provider<SupabaseClient>((ref) {
   return ref.watch(supabaseServiceProvider).client;
 });
+
+

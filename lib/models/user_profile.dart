@@ -95,3 +95,5 @@ class UserProfile {
     return '${parts[0][0]}${parts[parts.length - 1][0]}'.toUpperCase();
   }
 }
+
+

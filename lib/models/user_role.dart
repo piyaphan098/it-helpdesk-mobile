@@ -31,3 +31,5 @@ enum UserRole {
   bool get isEmployee => this == UserRole.employee;
   bool get canManageTickets => isTechnician || isAdmin;
 }
+
+

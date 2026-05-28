@@ -50,3 +50,5 @@ class AppColors {
   static Color glassBorder = Colors.white.withValues(alpha: 0.1);
   static Color cyanGlow    = const Color(0xFF2FD9F4).withValues(alpha: 0.15);
 }
+
+

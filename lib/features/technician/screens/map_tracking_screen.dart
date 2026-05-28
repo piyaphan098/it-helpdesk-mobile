@@ -71,7 +71,7 @@ class _MapTrackingScreenState extends State<MapTrackingScreen>
                   ),
                   const SizedBox(width: 12),
                   const Text(
-                    'TechPulse',
+                    'IT Helpdesk',
                     style: TextStyle(
                       fontFamily: 'Inter',
                       fontSize: 22,
@@ -536,4 +536,6 @@ class _DarkMapPainter extends CustomPainter {
   @override
   bool shouldRepaint(_) => false;
 }
+
+
 

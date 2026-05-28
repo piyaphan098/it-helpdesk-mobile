@@ -297,7 +297,7 @@ class _TicketsScreenState extends ConsumerState<TicketsScreen> {
                 ),
               ),
               const Text(
-                'TechPulse',
+                'IT Helpdesk',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
@@ -482,3 +482,5 @@ class _TicketCard extends StatelessWidget {
     );
   }
 }
+
+
