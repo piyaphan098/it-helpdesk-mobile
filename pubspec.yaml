@@ -1,0 +1,62 @@
+name: it_support_helpdesk
+description: IT Support Helpdesk - Production-ready IT repair request mobile application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Supabase
+  supabase_flutter: ^2.8.4
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # UI & animations
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  fl_chart: ^0.70.2
+
+  # Media & permissions
+  image_picker: ^1.1.2
+  permission_handler: ^11.4.0
+
+  # Maps & Location (รองรับ Web + Android + iOS, ไม่ต้องใช้ API Key)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.2
+
+  # Navigation
+  url_launcher: ^6.3.1
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  equatable: ^2.0.7
+  shared_preferences: ^2.5.3
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  riverpod_generator: ^2.6.3
+  build_runner: ^2.4.15
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
