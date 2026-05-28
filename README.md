@@ -163,7 +163,22 @@ open → in_progress → resolved → closed
 | `technician` | รับงาน, อัปเดตสถานะ, ดู Dashboard ช่าง |
 
 ---
+## 🔒 ความปลอดภัย (Security)
 
+ระบบใช้ Supabase พร้อม Row Level Security (RLS) ที่เปิดใช้งานทุก table
+
+| Table | Policy |
+|-------|--------|
+| `profiles` | ดู/แก้ได้เฉพาะของตัวเอง |
+| `tickets` | Employee ดู/สร้าง/แก้ของตัวเอง, Technician ดู/แก้ทั้งหมด |
+| `ticket_comments` | เข้าถึงได้เฉพาะคนที่เกี่ยวข้องกับ ticket นั้น |
+| `ticket_history` | ดูได้เฉพาะเจ้าของ ticket และ technician |
+| `ticket_reviews` | ดูได้ทุกคน, เพิ่ม/แก้ได้เฉพาะเจ้าของ |
+| `notifications` | ดู/อัปเดตได้เฉพาะของตัวเอง |
+| `technician_posts` | ดูได้ทุกคน, แก้/ลบได้เฉพาะเจ้าของ |
+| `technician_settings` | เข้าถึงได้เฉพาะ technician เจ้าของ |
+| `call_logs` | ดูได้เฉพาะคู่สายที่เกี่ยวข้อง |
+---
 ## 📄 License
 
 MIT License — Copyright (c) 2026 piyaphan098
